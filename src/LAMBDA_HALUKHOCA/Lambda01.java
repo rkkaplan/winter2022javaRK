@@ -142,7 +142,6 @@ Lambda Expression  yapisi cok tavsiye edilmez daha cok METHOD REFERENCE kullanil
         sayi.
                 stream().
                 filter(t -> t % 2 == 0 && t < 34).
-                filter(t -> t < 34).
                 forEach(Lambda01::yazdir);
 
     }

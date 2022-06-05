@@ -16,7 +16,7 @@ public class C03_StringSayiToplama {
         double str2Sayi = Double.valueOf(str2);
 
         double sonuc=(str1Sayi + str2Sayi)/100;
-        System.out.println("verilen String sayilarin toplami: $" + sonuc);
+        System.out.println("verilen String sayilarin toplami: "+"$" + sonuc);
 
 
 

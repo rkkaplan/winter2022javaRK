@@ -11,5 +11,6 @@ public class C02_TerstenYazdirma {
                        input.substring(1,2).toLowerCase() +
                        input.substring(0,1).toLowerCase();
         System.out.println(tersStr);
+        System.out.println("input.substring(input.length()-1) = " + input.substring(input.length()));
     }
 }
